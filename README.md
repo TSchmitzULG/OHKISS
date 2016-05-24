@@ -1,2 +1,2 @@
 # OHKISS
-Matlab toolbox for optimized hammerstein kernels identification by sine sweep
+Matlab toolbox for hammerstein kernels identification by sine sweep
