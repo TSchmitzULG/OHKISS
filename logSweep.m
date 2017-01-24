@@ -1,4 +1,4 @@
-function [sweep,invSweep,R]=logSweep(N,f1,f2,loss,fs)
+function [sweep,R]=logSweep(N,f1,f2,loss,fs)
 % N duration of the sweep in samples
 % f1 initial frequency of the sweep in hz
 % f2 final frequency of the sweep in hz
@@ -24,10 +24,6 @@ if(loss ~= 0)
 sweep = fadeIn(sweep,R,loss(1));
 sweep = fadeOut(sweep,R,f1,f2,N,loss(2));
 end;
- 
-%invSweep
-invSweep = fliplr(sweep).*(f2/f1).^(-n/(N-1));
 
-invSweep=invSweep';
 sweep=sweep';
 
