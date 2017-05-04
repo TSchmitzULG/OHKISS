@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 function [sweep,R]=logSweep(N,f1,f2,loss,fs)
+=======
+function [sweep,invSweep,R]=logSweep(N,f1,f2,loss,fs)
+>>>>>>> c4b017ef2346e97f55016662a8da4b6259d4115d
 % N duration of the sweep in samples
 % f1 initial frequency of the sweep in hz
 % f2 final frequency of the sweep in hz
