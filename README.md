@@ -1,4 +1,5 @@
 # OHKISS
+Please See the HKISS toolbox for a version more recent.
 <<<<<<< HEAD
 Matlab toolbox for hammerstein kernels identification by sine sweep
 =======
